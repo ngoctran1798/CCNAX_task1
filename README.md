@@ -64,7 +64,10 @@ Thông thường mạng có 3 dạng cấu trúc là:
 	- Chi phí dây mạng và thiết bị trung gian tốn kém nhiều  
 Nhìn chung, mạng dạng hình sao cho phép nối các máy tính vào một bộ tập trung (HUB) bằng cáp xoắn, giải pháp này cho phép nối trực tiếp máy tính với HUB không cần thông qua trục BUS, tránh được các yếu tố gây ngng trệ mạng. Gần đây, cùng với sự phát triển switching hub, mô hình này ngày càng trở nên phổ biến và chiếm đa số các mạng mới lắp.  
 - **Mạng dạng vòng (Ring Topology):**  
-	*Mạng dạng này, bố trí theo dạng xoay vòng, đường dây cáp được thiết kế làm thành một vòng khép kín, tín hiệu chạy quanh theo một chiều nào đó. Các nút truyền tín hiệu cho nhau mỗi thời điểm chỉ đợc một nút mà thôi. Dữ liệu truyền đi phải có kèm theo địa chỉ cụ thể của mỗi trạm tiếp nhận.*     
+	*Mạng dạng này, bố trí theo dạng xoay vòng, đường dây cáp được thiết kế làm thành một vòng khép kín, tín hiệu chạy quanh theo một chiều nào đó. Các nút truyền tín hiệu cho nhau mỗi thời điểm chỉ đợc một nút mà thôi. Dữ liệu truyền đi phải có kèm theo địa chỉ cụ thể của mỗi trạm tiếp nhận.*   
+	
+	
+	
 	**Ưu điểm:**  
 	- Mạng dạng vòng có thuận lợi là có thể nới rộng ra xa, tổng đường dây cần thiết ít hơn nên tiết kiệm được dây cable, tốc độ nhanh hơn kiểu BUS    
 	**Nhược điểm:**   
@@ -74,7 +77,9 @@ Nhìn chung, mạng dạng hình sao cho phép nối các máy tính vào một 
 Do mạng này có nhiều nhược điểm nên trong thực tế ít được sử dụng.  
 - **Mạng dạng tuyến ( BUS topology):**  
 	*Theo cách bố trí hành lang các đường như hình vẽ thì máy chủ (host) cũng như tất cả các máy tính khác (workstation) hoặc các nút (node) đều được nối về với nhau trên một trục đường dây cáp chính để chuyển ti n tín hiệu.*    
-	*Tất cả các nút đều sử dụng chung đường dây cáp chính này. Phía hai đầu dây cáp được bịt bởi một thiết bị gọi là terminator. Các tín hiệu và gói dữ liệu (packet) khi di chuyển lên hoặc xuống trong dây cáp đều mang theo điạ chỉ của nơi đến.*      
+	*Tất cả các nút đều sử dụng chung đường dây cáp chính này. Phía hai đầu dây cáp được bịt bởi một thiết bị gọi là terminator. Các tín hiệu và gói dữ liệu (packet) khi di chuyển lên hoặc xuống trong dây cáp đều mang theo điạ chỉ của nơi đến.*    
+	
+	
 	**Ưu điểm:**    
 	- Loại hình mạng này dùng dây cáp ít nhất, dễ lắp đặt nên tiết kiệm được chi phí lắp đặt.    
 	**Nhược điểm:**    
