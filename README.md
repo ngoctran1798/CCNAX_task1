@@ -75,6 +75,7 @@ Do mạng này có nhiều nhược điểm nên trong thực tế ít được 
 - **Mạng dạng tuyến ( BUS topology):**  
 	*Theo cách bố trí hành lang các đường như hình vẽ thì máy chủ (host) cũng như tất cả các máy tính khác (workstation) hoặc các nút (node) đều được nối về với nhau trên một trục đường dây cáp chính để chuyển ti n tín hiệu.*    
 	*Tất cả các nút đều sử dụng chung đường dây cáp chính này. Phía hai đầu dây cáp được bịt bởi một thiết bị gọi là terminator. Các tín hiệu và gói dữ liệu (packet) khi di chuyển lên hoặc xuống trong dây cáp đều mang theo điạ chỉ của nơi đến.*   
+	
 	**Ưu điểm:**    
 	- Loại hình mạng này dùng dây cáp ít nhất, dễ lắp đặt nên tiết kiệm được chi phí lắp đặt.    
 	**Nhược điểm:**    
