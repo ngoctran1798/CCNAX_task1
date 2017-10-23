@@ -54,7 +54,7 @@ Thông thường mạng có 3 dạng cấu trúc là:
 	- Cho phép theo dõi và xử lý sai trong quá trình trao đổi thông tin.  
 	- Thông báo các trạng thái của mạng…  
 		– **Ưu điểm:**   
-			- Mạng dạng hình sao cho tốc độ nhanh nhất .     
+			+ Mạng dạng hình sao cho tốc độ nhanh nhất .     
 			- Khi cable mạng bị đứt thì thưởng chí làm mất kết nối của một máy, còn những máy khác vẫn hoạt động bình thường.  
 			- Khi có lỗi xảy ra , ta dễ dàng kiểm tra và sửa chữa  
 			- Mạng có thể được mở rộng tuỳ theo nhu cầu sử dụng của người dùng      
