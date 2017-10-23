@@ -43,12 +43,12 @@ Ngày cập nhật: 23/10/2017
 
 
 ### 6.Một số loại Topology
--**Topology của mạng là cấu trúc hình học không gian mà thực chất là cách bố trí phần tử của mạng cũng như cách nối giữa chúng với nhau.**
+- **Topology của mạng là cấu trúc hình học không gian mà thực chất là cách bố trí phần tử của mạng cũng như cách nối giữa chúng với nhau.**
 Thông thờng mạng có 3 dạng cấu trúc là:   
 	- Mạng dạng hình sao (Star Topology)  
 	- Mạng dạng vòng (Ring Topology)  
 	- Mạng dạng tuyến (Linear Bus Topology)  
--**Mạng dạng hình sao (Star topology):**
+- **Mạng dạng hình sao (Star topology):**  
 	*Mạng dạng hình sao bao gồm một trung tâm và các nút thông tin. Các nút thông tin là các trạm đầu cuối, các máy tính và các thiết bị khác của mạng.* Trung tâm của mạng điều phối mọi hoạt động trong mạng với các chức năng cơ bản là:  
 		- Xác định cặp địa chỉ gửi và nhận được phép chiếm tuyến thông tin và liên lạc với nhau.  
 		- Cho phép theo dõi và xử lý sai trong quá trình trao đổi thông tin.  
@@ -63,10 +63,10 @@ Thông thờng mạng có 3 dạng cấu trúc là:
 				- Mạng yêu cầu nối độc lập riêng rẽ từng thiết bị ở các nút thông tin đến trung tâm.  Khoảng cách từ máy đến trung tâm rất hạn chế (100 m).  
 				- Chi phí dây mạng và thiết bị trung gian tốn kém nhiều  
 Nhìn chung, mạng dạng hình sao cho phép nối các máy tính vào một bộ tập trung (HUB) bằng cáp xoắn, giải pháp này cho phép nối trực tiếp máy tính với HUB không cần thông qua trục BUS, tránh được các yếu tố gây ngng trệ mạng. Gần đây, cùng với sự phát triển switching hub, mô hình này ngày càng trở nên phổ biến và chiếm đa số các mạng mới lắp.  
--**Mạng dạng vòng (Ring Topology):**  
+- **Mạng dạng vòng (Ring Topology):**  
 	*Mạng dạng này, bố trí theo dạng xoay vòng, đường dây cáp được thiết kế làm thành một vòng khép kín, tín hiệu chạy quanh theo một chiều nào đó. Các nút truyền tín hiệu cho nhau mỗi thời điểm chỉ đợc một nút mà thôi. Dữ liệu truyền đi phải có kèm theo địa chỉ cụ thể của mỗi trạm tiếp nhận.*  
 			– **Ưu điểm:**
-				- Mạng dạng vòng có thuận lợi là có thể nới rộng ra xa, tổng đường dây cần thiết ít hơn nên tiết kiệm được dây cable, tốc độ nhanh hơn kiểu BUS  
+				- Mạng dạng vòng có thuận lợi là có thể nới rộng ra xa, tổng đường dây cần thiết ít hơn nên tiết kiệm được dây cable, tốc độ nhanh hơn kiểu BUS    
 			– **Nhược điểm:** 
 				- Nhược điểm của mạng này là tốc độ vẫn bị chậm  
 				- Khi trên đường cable có sự cố thì toàn bộ mạng sẽ ngưng hoạt động  
