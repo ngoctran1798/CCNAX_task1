@@ -53,11 +53,11 @@ Thông thường mạng có 3 dạng cấu trúc là:
 	- Xác định cặp địa chỉ gửi và nhận được phép chiếm tuyến thông tin và liên lạc với nhau.  
 	- Cho phép theo dõi và xử lý sai trong quá trình trao đổi thông tin.  
 	- Thông báo các trạng thái của mạng…  
-		– **Ưu điểm:**   
-			+ Mạng dạng hình sao cho tốc độ nhanh nhất .     
-			- Khi cable mạng bị đứt thì thưởng chí làm mất kết nối của một máy, còn những máy khác vẫn hoạt động bình thường.  
-			- Khi có lỗi xảy ra , ta dễ dàng kiểm tra và sửa chữa  
-			- Mạng có thể được mở rộng tuỳ theo nhu cầu sử dụng của người dùng      
+	– **Ưu điểm:**   
+	- Mạng dạng hình sao cho tốc độ nhanh nhất .     
+	- Khi cable mạng bị đứt thì thưởng chí làm mất kết nối của một máy, còn những máy khác vẫn hoạt động bình thường.  
+	- Khi có lỗi xảy ra , ta dễ dàng kiểm tra và sửa chữa  
+	- Mạng có thể được mở rộng tuỳ theo nhu cầu sử dụng của người dùng      
 		– **Nhược điểm:**     
 				- Khả năng mở rộng mạng đều phụ thuộc vào khả năng của trung tâm. Khi trung tâm gặp sự cố thì toàn mạng đều ngưng hoạt động.  
 				- Mạng yêu cầu nối độc lập riêng rẽ từng thiết bị ở các nút thông tin đến trung tâm.  Khoảng cách từ máy đến trung tâm rất hạn chế (100 m).  
