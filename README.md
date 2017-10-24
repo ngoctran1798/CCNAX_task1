@@ -1,6 +1,6 @@
 **Trần Thị Ngọc**  
 Người Thực Hiện: Trần Thị Ngọc  
-Ngày cập nhật: 23/10/2017  
+Ngày cập nhật: 24/10/2017  
 ---------------
 ## Tên : Mạng Căn Bản  
 
