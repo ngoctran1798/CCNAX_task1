@@ -80,4 +80,77 @@ Do mạng này có nhiều nhược điểm nên trong thực tế ít được 
 - **Nhược điểm:**    
 	- Tuy vậy cũng có những bất lợi đó là sẽ có sự ùn tắc giao thông khi di chuyển dữ liệu với lưu lượng lớn.    
 	- Khi có sự hỏng hóc ở đoạn nào đó thì rất khó phát hiện, một sự ngừng trên đường dây để sửa chữa sẽ ngừng toàn bộ hệ thống.  
+	  
+	  
+Bài 2: Mô hình OSI
+ ### 1.Hoàn cảnh ra đời?  
+*Mô hình OSI (Open Systems Interconnection) hay còn gọi là mô hình 7 lớp được International Organization for Standardization (OSI) đưa ra vào năm 1971 với mục tiêu là nhắm đến việc kết nối các sản phẩm của các hãng sản xuất khác nhau, phá vỡ sự độc quyền trong sản xuất và phối hợp các hoạt động chuẩn hóa trong các lĩnh vực viễn thông và hệ thống thông tin.Năm 1984 mô hình tham chiếu OSI chính thức được đưa ra giới thiệu và được ghi trong tiêu chuẩn ISO/IEC 7498-1.*  
+### 2. Các lớp của mô hình? Chức năng của từng lớp mô hình?    
+**Mô hình OSI (Open system interconnection – Mô hình kết nối các hệ thống mở) là một thiết kế dựa vào nguyên lý tầng cấp, lý giải một cách trừu tượng kỹ thuật kết nối truyền thông giữa các máy vi tính và thiết kế giao thức mạng giữa chúng.**  
+![img](http://www.vnpro.vn/wp-content/uploads/2015/11/Osi-model-jb-600x639.png)  
+*Trong mô hình phân lớp:*
+
+**Lớp 1 Physical (lớp vật lý):** truyền dòng bit thô qua đường truyền vật lý cụ thể. Nó định nghĩa các đặc tính kĩ thuật về điện, cơ, quang, đặc tính kỹ thuật trong việc thiết lập, giải phóng , duy trì một đường truyền nào đó.  
+
+**Lớp 2 Data Link (lớp liên kết dữ liệu):** điều khiển dữ liệu truy nhập vào đường truyền vật lý,giao tiếp vớilớp Network, cung cấp cơ chế dò lỗi.  
+
+**Lớp 3 Network (lớp mạng):** phân bố dữ liệu ( định tuyến các gói dữ liệu),xác định đường đi tối ưu nhất để phân phối dữ liệu, định địa chỉ logic cho hệ thống mạng( địa chỉ IP).  
+
+**Lớp 4 Transport (lớp giao vận):** quản lý các kết nối đầu cuối( end-to-end), xử lí vấn dề truyền dẫn giữa các host, đảm bảo dữ liệu truyền một cách tin cậy từ điểm này đến điểm khác trong mạng, thu hồi hoặc duy trì các kết nối ảo, cung cấp cơ chế dò lỗi, phục hồi dữ liệu.  
+
+**Lớp 5 Session (lớp phiên):** thiết lập, quản lý và giải phóng các session giữa các ứng dụng ( tổ chức các phiên kết nối giữa các ứng dụng).  
+
+**Lớp 6 Presentation (lớp trình diễn):** đảm bảo dữ liệu từ nơi guiẻ đến nơi nhận có thể đọc ddược, cung cấp cơ chế mã hóa.  
+
+**Lớp 7 Application (lớp ứng dụng):** giao tiếp trực tiếp với người dùng,cung cấp các ứng dụng mạng,cung cấp cơ chế xác thực người dùng.  
+![img](http://2.bp.blogspot.com/-PEx2b0DNHY4/U4_p1YtCTZI/AAAAAAAAAB4/EzujsHncwKA/s1600/1.PNG) 
+   
+ Bài 3: Mô hình TCP/IP  
+ ### 1. TCP/IP là gì ?  
+**Mô hình TCP/IP (Transmission Control Protocol/Internet Protocol Model) là 1 tập các giao thức và quy tắc được phát triển để cho phép các máy tính liên kết với nhau, chia sẻ tài nguyên thông qua 1 hệ thống mạng.**  
+![img](http://2.bp.blogspot.com/-jH4TzAOcspU/UzQeMUZ1JlI/AAAAAAAAADA/cWNGZjCtkI4/s1600/TCP-IP-Model.png)  
+**Trong mô hình phân lớp:**  
+- *Lớp 1 truy cập mạng (Network Access Layer):*  
+    - Bao gồm tất cả các vấn đề mà 1 gói tin IP yêu cầu để tạo kết nối vật lý. Gồm tất cả đặc điểm của lớp/tầng vật lý và liên kết dữ liệu của mô hình OSI.  
+        - Đặc điểm kỹ thuật điện, cơ.  
+        - Tốc độ dữ liệu, khoảng cách, đầu nối vật lý (connector).  
+        - Các khung (frame), địa chỉ vật lý.  
+        - Việc đồng bộ hóa, kiểm soát luồng, kiểm soát lỗi.  
+- *Lớp 2 liên mạng (Internet Layer):*  
+    - Gửi các gói tin nguồn từ bất kỳ mạng nào, có những tuyến đường và mạng độc lập để đưa gói tin tới đích.  
+        - Gói tin, địa chỉ logic.  
+        - Giao thức liên mạng (Internet Protocol – IP).  
+        - Tuyến đường (route), bảng định tuyến (routing table), giao thức định tuyến (routing protocol).  
+- *Lớp 3 vận chuyển (Transport Layer):*  
+    - Xử lý về chất lượng dịch vụ, các vấn đề độ tin cậy, kiểm soát luồng, sửa lỗi.  
+        - Phân đoạn, dòng dữ liệu, lưu lượng.  
+        - Kết nối có định hướng và không định hướng.  
+        - Kiểm soát lường đầu cuối.  
+        - Phát hiện lỗi và phục hồi.    
+- *Lớp 4 ứng dụng (Application Layer):*  
+    - Xử lý các giao thức cấp cao, các vấn đề về trình diễn, số hóa (encoding), kiểm soát dialog .TCP/IP gộp tất cả các vấn đề liên quan đến ứng dụng vào 1 lớp/tầng, và đảm bảo các dữ liệu này được đóng góp hoàn toàn ở lớp/tầng tiếp theo.  
+        - FTP, HTTP, DNS, SMNP, …  
+        - Định dạng dữ liệu, cấu trúc dữ liệu, encode…  
+        - Kiểm soát dialog, quản trị phiên…  
+![img](https://kimnguyen.info/kim/wp-content/uploads/2014/09/Chap-2-TCP-IP-Protocol-300x251.jpg)  
+![img](https://image.slidesharecdn.com/ositcp-ip-120727232444-phpapp02/95/osi-tcp-ip-14-728.jpg?cb=1343431818)   
+### 2.So sánh OSI với TCP/IP?  
+![img](https://hsto.org/getpro/habr/comment_images/219/06c/99d/21906c99d593e1cbcef7d235df6b69e8.png)  
+![img](http://www.vnpro.vn/wp-content/uploads/2015/11/sp-sanh.jpg)  
+- **Giống nhau:**  
+    - *Cả hai đều có kiến trúc phân lớp.*    
+    - *Đều có **lớp Application**, mặc dù các dịch vụ ở mỗi lớp khác nhau.*  
+    - *Đều có các **lớp Transport** và **Network**.*    
+    - *Sử dụng kĩ thuật chuyển packet **(packet-switched)**.*  
+    - *Các nhà quản trị mạng chuyên nghiệp cần phải biết rõ hai mô hình trên.*   
+- **Khác nhau:**   
+    - *Mô hình TCP/IP kết hợp **lớp Presentation** và **lớp Session** vào trong **lớp Application**.*  
+    - *Mô hình TCP/IP kết hợp **lớp DataLink** và **lớp Physical** vào trong một lớp.*    
+    - *Mô hình TCP/IP đơn giản hơn bởi vì có ít lớp hơn.*    
+    - *Nghi thức TCP/IP được chuẩn hóa và được sử dụng phổ biến trên toàn thế giới.*   
+
+
+
+
+
 
