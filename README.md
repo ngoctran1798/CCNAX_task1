@@ -82,7 +82,7 @@ Do mạng này có nhiều nhược điểm nên trong thực tế ít được 
 	- Khi có sự hỏng hóc ở đoạn nào đó thì rất khó phát hiện, một sự ngừng trên đường dây để sửa chữa sẽ ngừng toàn bộ hệ thống.  
 	  
 	  
-Bài 2: Mô hình OSI
+## Tên: Mô hình OSI
  ### 1.Hoàn cảnh ra đời?  
 *Mô hình OSI (Open Systems Interconnection) hay còn gọi là mô hình 7 lớp được International Organization for Standardization (OSI) đưa ra vào năm 1971 với mục tiêu là nhắm đến việc kết nối các sản phẩm của các hãng sản xuất khác nhau, phá vỡ sự độc quyền trong sản xuất và phối hợp các hoạt động chuẩn hóa trong các lĩnh vực viễn thông và hệ thống thông tin.Năm 1984 mô hình tham chiếu OSI chính thức được đưa ra giới thiệu và được ghi trong tiêu chuẩn ISO/IEC 7498-1.*  
 ### 2. Các lớp của mô hình? Chức năng của từng lớp mô hình?    
@@ -105,7 +105,7 @@ Bài 2: Mô hình OSI
 **Lớp 7 Application (lớp ứng dụng):** giao tiếp trực tiếp với người dùng,cung cấp các ứng dụng mạng,cung cấp cơ chế xác thực người dùng.  
 ![img](http://2.bp.blogspot.com/-PEx2b0DNHY4/U4_p1YtCTZI/AAAAAAAAAB4/EzujsHncwKA/s1600/1.PNG) 
    
- Bài 3: Mô hình TCP/IP  
+ ## Tên: Mô hình TCP/IP  
  ### 1. TCP/IP là gì ?  
 **Mô hình TCP/IP (Transmission Control Protocol/Internet Protocol Model) là 1 tập các giao thức và quy tắc được phát triển để cho phép các máy tính liên kết với nhau, chia sẻ tài nguyên thông qua 1 hệ thống mạng.**  
 ![img](http://2.bp.blogspot.com/-jH4TzAOcspU/UzQeMUZ1JlI/AAAAAAAAADA/cWNGZjCtkI4/s1600/TCP-IP-Model.png)  
@@ -148,6 +148,17 @@ Bài 2: Mô hình OSI
     - *Mô hình TCP/IP kết hợp **lớp DataLink** và **lớp Physical** vào trong một lớp.*    
     - *Mô hình TCP/IP đơn giản hơn bởi vì có ít lớp hơn.*    
     - *Nghi thức TCP/IP được chuẩn hóa và được sử dụng phổ biến trên toàn thế giới.*   
+## Trả lời câu hỏi:  
+### 1.Nêu ngắn gọn các lớp của mô hình OSI và chức năng của từng lớp?  
+- *Lớp 1 Physical (lớp vật lý):* truyền dòng bit thô qua đường truyền vật lý cụ thể. Nó định nghĩa các đặc tính kĩ thuật về điện, cơ, quang, đặc tính kỹ thuật trong việc thiết lập, giải phóng , duy trì một đường truyền nào đó.  
+- *Lớp 2 Data Link:* điều khiển dữ liệu truy nhập vào đường truyền vật lý,giao tiếp vớilớp Network, cung cấp cơ chế dò lỗi.
+- *Lớp 3 Network:* phân bố dữ liệu ( định tuyến các gói dữ liệu),xác định đường đi tối ưu nhất để phân phối dữ liệu,định địa chỉ logic cho hệ thống mạng( địa chỉ IP).  
+- *Lớp 4 Transport:* quản lý các kết nối đầu cuối( end-to-end), xử lí vấn dề truyền dẫn giữa các host, đảm bảo dữ liệu truyền một cách tin cậy từ điểm này đến điểm khác trong mạng, thu hồi hoặc duy trì các kết nối ảo, cung cấp cơ chế dò lỗi, phục hồi dữ liệu.  
+- *Lớp 5 Session:* thiết lập, quản lý và giải phóng các session giữa các ứng dụng ( tổ chức các phiên kết nối giữa các ứng dụng).  
+- *Lớp 6 Presentation:* dảm bảo dữ liệu từ nơi guiẻ đến nơi nhận có thể đọc ddược, cung cấp cơ chế mã hóa.  
+- *Lớp 7 Application:* giao tiếp trực tiếp với người dùng,cung cấp các ứng dụng mạng,cung cấp cơ chế xác thực người dùng.  
+### 2.Các ứng dụng tiêu biểu ở Tầng Application (Ứng dụng) của Mô hình OSI?  
+Đây là lớp gần nhất với người dùng cuối, nó cung cấp giao diện giữa ứng dụng với các lớp phía dưới. Telnet, FTP, client email (SMTP), HyperText Transfer Protocol (HTTP) là những ví dụ của lớp ứng dụng. 
 
 
 
